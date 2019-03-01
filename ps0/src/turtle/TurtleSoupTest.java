@@ -12,13 +12,6 @@ import org.junit.Test;
 
 public class TurtleSoupTest {
 
-    /**
-     * Tests that assertions are enabled.
-     */
-    @Test(expected=AssertionError.class)
-    public void testAssertionsEnabled() {
-        assert false;
-    }
 
     /**
      * Tests calculateRegularPolygonAngle.

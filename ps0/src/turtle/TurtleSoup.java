@@ -136,6 +136,7 @@ public class TurtleSoup {
              turtle.turn(180.0 - calculateRegularPolygonAngle(sides));
          }
     }
+   
 
     /**
      * Main method.
@@ -147,10 +148,11 @@ public class TurtleSoup {
     public static void main(String args[]) {
         DrawableTurtle turtle = new DrawableTurtle();
 
-        drawSquare(turtle, 40);
-
+        //drawSquare(turtle, 40);
+        drawPersonalArt(turtle);
         // draw the window
         turtle.draw();
+       
     }
 
 }

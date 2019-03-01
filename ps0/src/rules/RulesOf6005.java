@@ -37,7 +37,7 @@ public class RulesOf6005 {
             boolean citingYourSource, boolean implementationRequired) {
         
         // TODO: Fill in this method, then remove the exception
-        System.out.println("dfdfd");
+       
 	boolean oneCanUseTheCode = false;
     	
         if (writtenByYourself==true && availableToOthers==false && writtenAsCourseWork==true && citingYourSource==true && implementationRequired==true)
